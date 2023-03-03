@@ -9,16 +9,18 @@ import Foundation
 
 final class ScrumTimer: ObservableObject {
     struct Speaker: Identifiable {
+        let id = UUID()
         let name: String
         var isCompleted: Bool
-        let id = UUID()
     }
     
     @Published var activeSpeaker = ""
     @Published var secondsElapsed = 0
     @Published var secondsRemaining = 0
+    
     private(set) var speakers: [Speaker] = []
     private(set) var lengthInMinutes: Int
+    
     var speakerChangedAction: (() -> Void)?
     
     private var timer: Timer?
@@ -81,9 +83,9 @@ final class ScrumTimer: ObservableObject {
     private func update(secondsElapsed: Int) {
         secondsElapsedForSpeaker = secondsElapsed
         self.secondsElapsed = secondsPerSpeaker * speakerIndex + secondsElapsedForSpeaker
-        guard secondsElapsed <= secondsPerSpeaker else {
-            return
-        }
+        
+        guard secondsElapsed <= secondsPerSpeaker else { return }
+        
         secondsRemaining = max(lengthInSeconds - self.secondsElapsed, 0)
         
         guard !timerStopped else { return }

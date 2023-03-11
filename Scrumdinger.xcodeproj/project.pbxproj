@@ -27,6 +27,7 @@
 		FE37450329AFC8F300BD509A /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE37450229AFC8F300BD509A /* MeetingView.swift */; };
 		FE37450529AFC8F300BD509A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE37450429AFC8F300BD509A /* Assets.xcassets */; };
 		FE37450829AFC8F300BD509A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE37450729AFC8F300BD509A /* Preview Assets.xcassets */; };
+		FEEF2D7429BC7897004F78DF /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF2D7329BC7897004F78DF /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		FE37450229AFC8F300BD509A /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		FE37450429AFC8F300BD509A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE37450729AFC8F300BD509A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEEF2D7329BC7897004F78DF /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				FE11177D29B0C1FA00A12DB5 /* Theme.swift */,
 				FE11177F29B0C31500A12DB5 /* DailyScrum.swift */,
 				FE17A5FE29B1D52800F49B42 /* History.swift */,
+				FEEF2D7329BC7897004F78DF /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				FE11179129B0D87000A12DB5 /* ThemePicker.swift in Sources */,
 				FE11179529B0E59B00A12DB5 /* ScrumProgressViewStyle.swift in Sources */,
 				FE11179A29B0E7E800A12DB5 /* MeetingFooterView.swift in Sources */,
+				FEEF2D7429BC7897004F78DF /* ScrumStore.swift in Sources */,
 				FE11178029B0C31500A12DB5 /* DailyScrum.swift in Sources */,
 				FE11178B29B0CC1E00A12DB5 /* DetailView.swift in Sources */,
 				FE11179329B0E37C00A12DB5 /* MeetingHeaderView.swift in Sources */,

@@ -5,7 +5,6 @@
 //  Created by Vitaliy Talalay on 11.03.2023.
 //
 
-//import Foundation
 import SwiftUI
 
 final class ScrumStore: ObservableObject {

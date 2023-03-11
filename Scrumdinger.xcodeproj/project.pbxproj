@@ -32,6 +32,8 @@
 		FEEF2D7829BC8316004F78DF /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF2D7729BC8316004F78DF /* ErrorView.swift */; };
 		FEEF2D7A29BC85F4004F78DF /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF2D7929BC85F4004F78DF /* MeetingTimerView.swift */; };
 		FEEF2D7D29BC86C7004F78DF /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF2D7C29BC86C7004F78DF /* SpeakerArc.swift */; };
+		FEEF2D7F29BC8AA2004F78DF /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF2D7E29BC8AA2004F78DF /* SpeechRecognizer.swift */; };
+		FEEF2D8129BC8D05004F78DF /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF2D8029BC8D05004F78DF /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		FEEF2D7729BC8316004F78DF /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		FEEF2D7929BC85F4004F78DF /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		FEEF2D7C29BC86C7004F78DF /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
+		FEEF2D7E29BC8AA2004F78DF /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		FEEF2D8029BC8D05004F78DF /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 				FE17A5FE29B1D52800F49B42 /* History.swift */,
 				FEEF2D7329BC7897004F78DF /* ScrumStore.swift */,
 				FEEF2D7529BC82A5004F78DF /* ErrorWrapper.swift */,
+				FEEF2D7E29BC8AA2004F78DF /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 				FE11179029B0D87000A12DB5 /* ThemePicker.swift */,
 				FEEF2D7729BC8316004F78DF /* ErrorView.swift */,
 				FEEF2D7929BC85F4004F78DF /* MeetingTimerView.swift */,
+				FEEF2D8029BC8D05004F78DF /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE17A5FF29B1D52800F49B42 /* History.swift in Sources */,
+				FEEF2D8129BC8D05004F78DF /* HistoryView.swift in Sources */,
 				FE11179129B0D87000A12DB5 /* ThemePicker.swift in Sources */,
 				FE11179529B0E59B00A12DB5 /* ScrumProgressViewStyle.swift in Sources */,
 				FE11179A29B0E7E800A12DB5 /* MeetingFooterView.swift in Sources */,
@@ -273,6 +280,7 @@
 				FE11178629B0C70700A12DB5 /* ScrumsView.swift in Sources */,
 				FE37450329AFC8F300BD509A /* MeetingView.swift in Sources */,
 				FE37450129AFC8F300BD509A /* ScrumdingerApp.swift in Sources */,
+				FEEF2D7F29BC8AA2004F78DF /* SpeechRecognizer.swift in Sources */,
 				FEEF2D7829BC8316004F78DF /* ErrorView.swift in Sources */,
 				FE11179829B0E61D00A12DB5 /* ScrumTimerVM.swift in Sources */,
 				FE11178F29B0D79E00A12DB5 /* ThemeView.swift in Sources */,
@@ -410,6 +418,7 @@
 				DEVELOPMENT_TEAM = Q3N89R8Y92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "“Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -439,6 +448,7 @@
 				DEVELOPMENT_TEAM = Q3N89R8Y92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "“Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
